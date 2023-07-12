@@ -14,8 +14,11 @@ function CreateRecodeSheet() {
     return sheet;
   }
 
-  // 新しいシートを作成
+  // 記録用シートを作成
   sheet = spreadsheet.insertSheet(sheetName);
+  // LINE用のシートを作成
+  spreadsheet.insertSheet('switch');
+  
 
   // 開始時間とタイトルを設定
   sheet.getRange("A1").setValue("開始時間"); // 開始時間
