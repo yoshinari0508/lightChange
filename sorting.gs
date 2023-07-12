@@ -59,6 +59,8 @@ function sorting_message(userMessage, previous_flg) {
     //スプレットシートに記録
     write_ss(flg);
     return resMessage;
+
+    aaaa
 }
 
 
